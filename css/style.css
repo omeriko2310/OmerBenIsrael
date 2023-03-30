@@ -1,0 +1,561 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+header,
+main,
+footer,
+nav,
+aside,
+section {
+  display: block;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.primary-header {
+  position: relative;
+  width: 266px;
+  height: 33px;
+  left: 40px;
+  top: 40px;
+}
+
+#logo {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 60px;
+  top: 11px;
+}
+
+.logo-image {
+  position: relative;
+  margin-left: 55%;
+  bottom: 60%;
+  right: 90px;
+  width: 75px;
+}
+
+span {
+  position: absolute;
+  width: 266px;
+  height: 33px;
+  left: 78px;
+  top: 10px;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  letter-spacing: 0.25em;
+
+  color: #3e3f43;
+}
+
+.pink-container {
+  position: relative;
+  width: 100%;
+  height: 555px;
+  left: 0px;
+  top: 123px;
+  background-color: #f9bdbd;
+  background-image: url("../images/langs.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 20px 30px;
+  background-size: auto, auto;
+}
+
+.text-in-pink h1 {
+  position: absolute;
+  width: 448px;
+  height: 98px;
+  left: 806px;
+  top: 106px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  color: #3e3f43;
+}
+
+.text-in-pink p {
+  position: absolute;
+  width: 448px;
+  height: 66px;
+  left: 806px;
+  top: 275px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.about {
+  position: relative;
+  width: 741px;
+  height: 458px;
+  left: 30px;
+  top: 75px;
+}
+
+.about h2 {
+  position: absolute;
+  width: 89px;
+  height: 40px;
+  left: 10px;
+  top: 75px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.about p {
+  position: absolute;
+  top: 130px;
+  left: 10px;
+  width: 600px;
+  line-height: 27px;
+  padding-bottom: 83px;
+  font-weight: 200;
+  display: block;
+  font-size: 20px;
+}
+
+.Exercises {
+  position: absolute;
+  width: 1094px;
+  height: 300px;
+  left: 30px;
+  top: 950px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  color: #000000;
+}
+
+.Exercises h2 {
+  position: relative;
+  width: 140px;
+  height: 40px;
+  left: 10px;
+  margin-top: 50px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: #000000;
+}
+
+.ex1-image {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin-left: 24px;
+  top: 24px;
+  border-radius: 100px;
+}
+
+.ex1 h2 {
+  position: relative;
+  width: auto;
+  height: 60px;
+  margin-left: 18px;
+  top: 90px;
+  font-size: 16px;
+}
+
+.ex1 {
+  position: absolute;
+  left: 10px;
+  top: 130px;
+  width: 200px;
+  height: 264px;
+  background: #fdede5;
+  border-radius: 40px;
+}
+
+.button {
+  position: absolute;
+  height: 40px;
+  left: 16.84px;
+  right: 14.74px;
+  top: 200px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+  align-items: center;
+  text-align: center;
+  color: #171f46;
+  border-radius: 40px;
+  width: 120px;
+  transition-duration: 0.3s;
+}
+
+.button p {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  left: 45px;
+  top: 7px;
+  font-family: "Rubik";
+  font-weight: bold;
+}
+
+.ex1 .button:hover {
+  background-color: #000000;
+  color: #fdede5;
+}
+
+.ex2 {
+  position: absolute;
+  left: 235px;
+  top: 0px;
+  width: 200px;
+  height: 264px;
+  background: #ebf1ff;
+  border-radius: 40px;
+}
+
+.ex2-image {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin-left: 24px;
+  top: 24px;
+  border-radius: 100px;
+}
+
+.ex2 .button:hover {
+  background-color: #000000;
+  color: #ebf1ff;
+}
+
+.ex3 {
+  position: absolute;
+  left: 235px;
+  top: 0px;
+  width: 200px;
+  height: 264px;
+  background: #ebffec;
+  border-radius: 40px;
+}
+
+.ex3-image {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin-left: 24px;
+  top: 24px;
+  border-radius: 100px;
+}
+
+.ex3 .button:hover {
+  background-color: #000000;
+  color: #ebffec;
+}
+
+.ex4 {
+  position: absolute;
+  left: 235px;
+  top: 0px;
+  width: 200px;
+  height: 264px;
+  background: #ffebfc;
+  border-radius: 40px;
+}
+
+.ex4-image {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin-left: 24px;
+  top: 24px;
+  border-radius: 100px;
+}
+
+.ex4 .button:hover {
+  background-color: #000000;
+  color: #ffebfc;
+}
+
+.ex5 {
+  position: absolute;
+  left: 235px;
+  top: 0px;
+  width: 200px;
+  height: 264px;
+  background: #fffeeb;
+  border-radius: 40px;
+}
+
+.ex5-image {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin-left: 24px;
+  top: 24px;
+  border-radius: 100px;
+}
+
+.ex5 .button:hover {
+  background-color: #000000;
+  color: #fffeeb;
+}
+
+.prog-langs h2 {
+  position: relative;
+  left: -710px;
+  top: 150px;
+  font-size: 30px;
+  width: 352px;
+  font-weight: bold;
+}
+
+.prog-langs ul {
+  position: absolute;
+  left: -672px;
+  top: 370px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.albums div {
+  position: relative;
+  width: 1070px;
+  height: 440px;
+  left: -700px;
+  top: 320px;
+  background: #fcc784;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.albums h2 {
+  position: relative;
+  left: -710px;
+  top: 300px;
+  font-size: 30px;
+  width: 352px;
+  font-weight: bold;
+}
+#kida {
+  top: 10px;
+  left: 10px;
+}
+
+.kida-img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+}
+
+#topimp {
+  top: 10px;
+  left: 70px;
+}
+
+.topimp-img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+}
+
+#soc {
+  top: 10px;
+  left: 153px;
+}
+
+.soc-img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+}
+
+#red {
+  top: 10px;
+  left: 237px;
+}
+
+.red-img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+}
+
+#blackradio {
+  top: 230px;
+  left: -820px;
+}
+
+.blackradio-img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+}
+
+#giantsteps {
+  top: 22px;
+  left: 278px;
+}
+
+.giantsteps-img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+}
+
+#mrmorale {
+  top: 22px;
+  left: 360px;
+}
+
+.mrmorale-img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+}
+
+#ghosts {
+  top: 22px;
+  left: 445px;
+}
+
+.ghosts-img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+  position: relative;
+  height: 301px;
+  width: 100%;
+  left: 0px;
+  top: 1300px;
+  background-color: #dcdbdbc7;
+}
+
+.Follow {
+  position: relative;
+  left: 40px;
+  top: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
+}
+
+.Facebook {
+  position: relative;
+  left: 40px;
+  top: 73px;
+}
+
+.Facebook a {
+  color: #8d8d8d;
+  font-size: 16px;
+  transition: font-size 0.5s ease-in-out;
+}
+
+.Facebook a:hover {
+  font-size: 20px;
+  color: #3e3f43;
+}
+
+.Instagram {
+  position: relative;
+  left: 40px;
+  top: 89px;
+}
+
+.Instagram a {
+  color: #8d8d8d;
+  font-size: 16px;
+  transition: font-size 0.5s ease-in-out;
+}
+
+.Instagram a:hover {
+  font-size: 20px;
+  color: #3e3f43;
+}
+
+.LinkedIn {
+  position: relative;
+  left: 40px;
+  top: 105px;
+}
+
+.LinkedIn a {
+  color: #8d8d8d;
+  font-size: 16px;
+  transition: font-size 0.5s ease-in-out;
+}
+
+.LinkedIn a:hover {
+  font-size: 20px;
+  color: #3e3f43;
+}
+
+.GitHub {
+  position: relative;
+  left: 40px;
+  top: 121px;
+}
+
+.GitHub a {
+  color: #8d8d8d;
+  font-size: 16px;
+  transition: font-size 0.5s ease-in-out;
+}
+
+.GitHub a:hover {
+  font-size: 20px;
+  color: #3e3f43;
+}
+
+footer h6 {
+  position: relative;
+  left: 40px;
+  top: 175px;
+  font-family: 'Rubik', sans-serif;
+}
