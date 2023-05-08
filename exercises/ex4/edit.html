@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Edit Product</title>
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+    <h1>Edit Product</h1>
+    <form action="https://se.shenkar.ac.il/students/2022-2023/web1/dev_21/exercises/ex4/get_editform.php" method="get">
+      <label for="color">Color:</label>
+      <select id="color" name="color">
+        <option value="Red">Red</option>
+        <option value="Blue">Blue</option>
+        <option value="Green">Green</option>
+        <option value="Yellow">Yellow</option>
+        <option value="Black">Black</option>
+        <option value="White">White</option>
+      </select>
+      <label for="size">Size:</label>
+      <select id="size" name="size">
+        <option value="XS">XS</option>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+        <option value="XXL">XXL</option>
+      </select>
+      <label for="mail">Email:</label>
+      <input type="email" value="mail"/>
+      <label>Choose Shipping Type:</label><br/>
+      <input type="radio" id="standard" name="shipping" value="standard" checked/>
+      <label for="standard">Standard</label><br/>
+      <input type="radio" id="premium" name="shipping" value="premium"/>
+      <label for="premium">Premium</label><br/><br/>
+      <label for="total-price">Total Price</label>
+      <input type="text" id="total-price" name="total-price" readonly/>
+      <input type="submit" value="send"/>
+    </form>
+    <img id="shirt-image" src="https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/AltItemShot/315x472/U88491s.jpg"/>
+  </body>
+  <script src="script/script.js"></script>
+</html>

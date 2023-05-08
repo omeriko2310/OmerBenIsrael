@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Omers Form</title>
+</head>
+<body>
+    <div class="wrapper">
+    <form class="form" action="http://se.shenkar.ac.il/teach/web1/get_form3.php" method="get" onsubmit="return validate()"><h1>Join Our Member Club</h1><br>
+        Full Name:<input type=”text” name="fullName" placeholder="Full Name" class="form-control" pattern="[A-Za-z]+( [A-Za-z]+)+" title="Enter your name containing only letters in english and at least one space character" required><br>
+        Enter Password:<input type="password"  name="pass" class="form-control" placeholder="Password" pattern="[0-9]+[A-Za-z]+" title="Your password should include only numbers and english characters" required><br>
+        Enter Your Email:<input type="email" name="mail" class="form-control" placeholder="email" required><br>
+        Website:<input type="url" name="website" class="form-control" placeholder="Website"required><br>
+        Enter Your Cell Number:<input type="tel" class="form-control" name="phone" placeholder="Cellphone Number" title="10 Digits and only numbers"required><br>
+        How many times do you drink coffee a day? <input type="number" name="coffee"required class="form-control"><br>
+        Range of Temperature: <input type="range" name="temper"required><br>
+        Address:<textarea name="address"required></textarea><br>
+        <fieldset>
+        <legend>Hobbies:</legend>
+        Saxophone<input type="checkbox" name="interests[]" value="Saxophone" title=""><br>
+        Basketball<input type="checkbox" name="interests[]" value="Basketball"><br>
+        Gaming<input type="checkbox" name="interests[]" value="Gaming"><br>
+        Listening<input type="checkbox" name="interests[]" value="Listening"><br>
+        </fieldset>
+        Male: <input type="radio" name="gender" value="Male"required><br>
+        Female: <input type="radio" name="gender" value="Female"required><br>
+        Age:<select name="age" required min="23" max="38"required>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+            <option value="32">32</option>
+            <option value="33">33</option>
+            <option value="34">34</option>
+            <option value="35">35</option>
+            <option value="36">36</option>
+            <option value="37">37</option>
+            <option value="38">38</option>
+        </select>
+        Submit-><input type="submit" value="send">
+    </form>
+</div>
+</body>
+<script src="script/script.js"></script>
+</html>

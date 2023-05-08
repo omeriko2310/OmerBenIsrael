@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  input[type="email"],
+  select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+  #shirt-image {
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 50px;
+    bottom: 500px;
+  }
+
+  #total-price {
+    border: none;
+    background-color: #f2f2f2;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  #total-price::before {
+    content: "$";
+  }
+
+  #premium::after {
+    position: relative;
+    top: 10px;
+    left: 80px;
+    content: " + $10";
+    font-weight: normal;
+    color: #999;
+  }
+
+  #premium{
+    position: relative;
+  }
+
+  .wrapper{
+    display: flex;
+    justify-content: center;
+}
