@@ -11,6 +11,7 @@
   <div class="book-list">
     <?php
     include "db.php";
+    include "config.php";
     $query = "SELECT * FROM tbl_21_books";
     $result = mysqli_query($connection, $query);
 
