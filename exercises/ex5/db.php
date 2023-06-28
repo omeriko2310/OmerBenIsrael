@@ -1,4 +1,5 @@
 <?php
+include "config.php";
 
 $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 

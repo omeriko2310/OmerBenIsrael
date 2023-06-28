@@ -8,6 +8,7 @@
     <div class="book-list">
         <?php
         include "db.php";
+        include "config.php";
         $bookId = $_GET['book_id'];
         $query = "SELECT * FROM tbl_21_books WHERE book_id = '$bookId'";
         $result = mysqli_query($connection, $query);
